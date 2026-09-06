@@ -1,18 +1,52 @@
 {
   "version": "1.0",
   "update_time": "2025-09-06",
-  "name": "我的私人多仓 + 足球专线",
+  "name": "我的私人多仓 + 足球专线（含备用接口）",
   "lines": [
     {
-      "name": "饭太硬线路",
-      "key": "饭太硬",
+      "name": "饭太硬线路（主）",
+      "key": "饭太硬主",
       "type": 1,
       "api": "csp_JianPian",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
       "jar": "http://www.饭太硬.com/tv",
-      "ext": "http://www.饭太硬.com/tv"
+      "ext": "http://www.饭太硬.com/tv",
+      "backup": [
+        "http://fty.888484.xyz/tv",
+        "http://fan.xxooo.cf/tv"
+      ]
+    },
+    {
+      "name": "饭太硬线路（备用 1）",
+      "key": "饭太硬备 1",
+      "type": 1,
+      "api": "csp_JianPian",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "jar": "http://fty.888484.xyz/tv",
+      "ext": "http://fty.888484.xyz/tv",
+      "backup": [
+        "http://www.饭太硬.com/tv",
+        "http://fan.xxooo.cf/tv"
+      ]
+    },
+    {
+      "name": "饭太硬线路（备用 2）",
+      "key": "饭太硬备 2",
+      "type": 1,
+      "api": "csp_JianPian",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "jar": "http://fan.xxooo.cf/tv",
+      "ext": "http://fan.xxooo.cf/tv",
+      "backup": [
+        "http://www.饭太硬.com/tv",
+        "http://fty.888484.xyz/tv"
+      ]
     },
     {
       "name": "肥猫线路",
@@ -23,7 +57,12 @@
       "quickSearch": 1,
       "filterable": 0,
       "jar": "http://肥猫.com/",
-      "ext": "http://肥猫.com/"
+      "ext": "http://肥猫.com/",
+      "backup": [
+        "http://肥猫.live/",
+        "https://like.肥猫.com/PandaQ",
+        "http://我不是.肥猫.love:63/"
+      ]
     },
     {
       "name": "摸鱼线路",
@@ -34,7 +73,11 @@
       "quickSearch": 1,
       "filterable": 0,
       "jar": "http://我不是.摸鱼儿.com",
-      "ext": "http://我不是.摸鱼儿.com"
+      "ext": "http://我不是.摸鱼儿.com",
+      "backup": [
+        "http://我不是.摸鱼儿.top",
+        "http://清清.摸鱼儿.top"
+      ]
     },
     {
       "name": "小米线路",
@@ -45,7 +88,11 @@
       "quickSearch": 1,
       "filterable": 0,
       "jar": "http://xhww.fun:63/小米/DEMO.json",
-      "ext": "http://xhww.fun:63/小米/DEMO.json"
+      "ext": "http://xhww.fun:63/小米/DEMO.json",
+      "backup": [
+        "https://3450.kstore.space/DEMO.json",
+        "http://www.mpanso.com/小米/DEMO.json"
+      ]
     },
     {
       "name": "王小二线路",
@@ -56,18 +103,54 @@
       "quickSearch": 1,
       "filterable": 0,
       "jar": "http://tvbox.王二小放牛娃.top",
-      "ext": "http://tvbox.王二小放牛娃.top"
+      "ext": "http://tvbox.王二小放牛娃.top",
+      "backup": [
+        "http://tvbox.xn--4kq62z5rby2qupq9ub.top/"
+      ]
     },
     {
-      "name": "讴歌线路",
-      "key": "讴歌",
+      "name": "讴歌线路（主）",
+      "key": "欧歌主",
       "type": 1,
       "api": "csp_OuGe",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 0,
       "jar": "http://tv.nxog.top/m/111.php?ou=公众号欧歌app&mz=index&jar=index&123&b=欧歌",
-      "ext": "http://tv.nxog.top/m/111.php?ou=公众号欧歌app&mz=index&jar=index&123&b=欧歌"
+      "ext": "http://tv.nxog.top/m/111.php?ou=公众号欧歌app&mz=index&jar=index&123&b=欧歌",
+      "backup": [
+        "http://tv.nxog.top/m/111.php?ou=欧歌",
+        "http://tv.nxog.top/api.php?mz=xb&id=1&b=欧歌",
+        "https://xn--zp8-mf3g9f.v.nxog.top/m/111.php?ou=欧歌"
+      ]
+    },
+    {
+      "name": "讴歌线路（备用 1）",
+      "key": "欧歌备 1",
+      "type": 1,
+      "api": "csp_OuGe",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "jar": "http://tv.nxog.top/m/111.php?ou=欧歌",
+      "ext": "http://tv.nxog.top/m/111.php?ou=欧歌",
+      "backup": [
+        "http://tv.nxog.top/api.php?mz=xb&id=1&b=欧歌"
+      ]
+    },
+    {
+      "name": "讴歌线路（备用 2）",
+      "key": "欧歌备 2",
+      "type": 1,
+      "api": "csp_OuGe",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 0,
+      "jar": "http://tv.nxog.top/api.php?mz=xb&id=1&b=欧歌",
+      "ext": "http://tv.nxog.top/api.php?mz=xb&id=1&b=欧歌",
+      "backup": [
+        "http://tv.nxog.top/m/111.php?ou=欧歌"
+      ]
     },
     {
       "name": "运输车线路",
@@ -78,7 +161,10 @@
       "quickSearch": 1,
       "filterable": 0,
       "jar": "https://weixine.net/ysc.json",
-      "ext": "https://weixine.net/ysc.json"
+      "ext": "https://weixine.net/ysc.json",
+      "backup": [
+        "https://tvkj.top/DC/ysc/tvkj/svip.json"
+      ]
     },
     {
       "name": "道长线路",
@@ -100,7 +186,11 @@
       "quickSearch": 1,
       "filterable": 0,
       "jar": "https://ghproxy.com/https://raw.githubusercontent.com/guot55/yg/main/max.json",
-      "ext": "https://ghproxy.com/https://raw.githubusercontent.com/guot55/yg/main/max.json"
+      "ext": "https://ghproxy.com/https://raw.githubusercontent.com/guot55/yg/main/max.json",
+      "backup": [
+        "https://gitlab.com/ygbh1/box/-/raw/main/dcang/dc.json",
+        "https://jihulab.com/ygbh1/box/-/raw/main/dcang/dc.json"
+      ]
     },
     {
       "name": "巧儿线路",
