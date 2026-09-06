@@ -1,272 +1,245 @@
 {
-  "version": "1.0",
-  "update_time": "2025-09-06",
-  "name": "我的私人多仓 + 足球专线（含备用接口）",
-  "lines": [
+  "spider": "",
+  "wallpaper": "https://jx.xn--218-mf3g9f.v.nxog.top/jp/index.php",
+  "sites": [
     {
-      "name": "饭太硬线路（主）",
       "key": "饭太硬主",
+      "name": "饭太硬（主）",
       "type": 1,
       "api": "csp_JianPian",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0,
-      "jar": "http://www.饭太硬.com/tv",
-      "ext": "http://www.饭太硬.com/tv",
-      "backup": [
-        "http://fty.888484.xyz/tv",
-        "http://fan.xxooo.cf/tv"
-      ]
+      "filterable": 1,
+      "ext": "http://www.饭太硬.com/tv"
     },
     {
-      "name": "饭太硬线路（备用 1）",
       "key": "饭太硬备 1",
+      "name": "饭太硬（备 1）",
       "type": 1,
       "api": "csp_JianPian",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0,
-      "jar": "http://fty.888484.xyz/tv",
-      "ext": "http://fty.888484.xyz/tv",
-      "backup": [
-        "http://www.饭太硬.com/tv",
-        "http://fan.xxooo.cf/tv"
-      ]
+      "filterable": 1,
+      "ext": "http://fty.888484.xyz/tv"
     },
     {
-      "name": "饭太硬线路（备用 2）",
       "key": "饭太硬备 2",
+      "name": "饭太硬（备 2）",
       "type": 1,
       "api": "csp_JianPian",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0,
-      "jar": "http://fan.xxooo.cf/tv",
-      "ext": "http://fan.xxooo.cf/tv",
-      "backup": [
-        "http://www.饭太硬.com/tv",
-        "http://fty.888484.xyz/tv"
-      ]
+      "filterable": 1,
+      "ext": "http://fan.xxooo.cf/tv"
     },
     {
-      "name": "肥猫线路",
       "key": "肥猫",
+      "name": "肥猫线路",
       "type": 1,
       "api": "csp_FeiMao",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0,
-      "jar": "http://肥猫.com/",
-      "ext": "http://肥猫.com/",
-      "backup": [
-        "http://肥猫.live/",
-        "https://like.肥猫.com/PandaQ",
-        "http://我不是.肥猫.love:63/"
-      ]
+      "filterable": 1,
+      "ext": "http://肥猫.com/"
     },
     {
-      "name": "摸鱼线路",
+      "key": "肥猫备 1",
+      "name": "肥猫（备 1）",
+      "type": 1,
+      "api": "csp_FeiMao",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://肥猫.live/"
+    },
+    {
+      "key": "肥猫备 2",
+      "name": "肥猫（备 2）",
+      "type": 1,
+      "api": "csp_FeiMao",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://like.肥猫.com/PandaQ"
+    },
+    {
       "key": "摸鱼",
+      "name": "摸鱼线路",
       "type": 1,
       "api": "csp_MoYu",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0,
-      "jar": "http://我不是.摸鱼儿.com",
-      "ext": "http://我不是.摸鱼儿.com",
-      "backup": [
-        "http://我不是.摸鱼儿.top",
-        "http://清清.摸鱼儿.top"
-      ]
+      "filterable": 1,
+      "ext": "http://我不是.摸鱼儿.com"
     },
     {
-      "name": "小米线路",
+      "key": "摸鱼备 1",
+      "name": "摸鱼（备 1）",
+      "type": 1,
+      "api": "csp_MoYu",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "http://我不是.摸鱼儿.top"
+    },
+    {
       "key": "小米",
+      "name": "小米线路",
       "type": 1,
       "api": "csp_XiaoMi",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0,
-      "jar": "http://xhww.fun:63/小米/DEMO.json",
-      "ext": "http://xhww.fun:63/小米/DEMO.json",
-      "backup": [
-        "https://3450.kstore.space/DEMO.json",
-        "http://www.mpanso.com/小米/DEMO.json"
-      ]
+      "filterable": 1,
+      "ext": "http://xhww.fun:63/小米/DEMO.json"
     },
     {
-      "name": "王小二线路",
+      "key": "小米备 1",
+      "name": "小米（备 1）",
+      "type": 1,
+      "api": "csp_XiaoMi",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "ext": "https://3450.kstore.space/DEMO.json"
+    },
+    {
       "key": "王小二",
+      "name": "王小二线路",
       "type": 1,
       "api": "csp_WangErXiao",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0,
-      "jar": "http://tvbox.王二小放牛娃.top",
-      "ext": "http://tvbox.王二小放牛娃.top",
-      "backup": [
-        "http://tvbox.xn--4kq62z5rby2qupq9ub.top/"
-      ]
+      "filterable": 1,
+      "ext": "http://tvbox.王二小放牛娃.top"
     },
     {
-      "name": "讴歌线路（主）",
       "key": "欧歌主",
+      "name": "欧歌（主）",
       "type": 1,
       "api": "csp_OuGe",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0,
-      "jar": "http://tv.nxog.top/m/111.php?ou=公众号欧歌app&mz=index&jar=index&123&b=欧歌",
-      "ext": "http://tv.nxog.top/m/111.php?ou=公众号欧歌app&mz=index&jar=index&123&b=欧歌",
-      "backup": [
-        "http://tv.nxog.top/m/111.php?ou=欧歌",
-        "http://tv.nxog.top/api.php?mz=xb&id=1&b=欧歌",
-        "https://xn--zp8-mf3g9f.v.nxog.top/m/111.php?ou=欧歌"
-      ]
+      "filterable": 1,
+      "ext": "http://tv.nxog.top/m/111.php?ou=公众号欧歌 app&mz=index&jar=index&123&b=欧歌"
     },
     {
-      "name": "讴歌线路（备用 1）",
       "key": "欧歌备 1",
+      "name": "欧歌（备 1）",
       "type": 1,
       "api": "csp_OuGe",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0,
-      "jar": "http://tv.nxog.top/m/111.php?ou=欧歌",
-      "ext": "http://tv.nxog.top/m/111.php?ou=欧歌",
-      "backup": [
-        "http://tv.nxog.top/api.php?mz=xb&id=1&b=欧歌"
-      ]
+      "filterable": 1,
+      "ext": "http://tv.nxog.top/m/111.php?ou=欧歌"
     },
     {
-      "name": "讴歌线路（备用 2）",
       "key": "欧歌备 2",
+      "name": "欧歌（备 2）",
       "type": 1,
       "api": "csp_OuGe",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0,
-      "jar": "http://tv.nxog.top/api.php?mz=xb&id=1&b=欧歌",
-      "ext": "http://tv.nxog.top/api.php?mz=xb&id=1&b=欧歌",
-      "backup": [
-        "http://tv.nxog.top/m/111.php?ou=欧歌"
-      ]
+      "filterable": 1,
+      "ext": "http://tv.nxog.top/api.php?mz=xb&id=1&b=欧歌"
     },
     {
-      "name": "运输车线路",
       "key": "运输车",
+      "name": "运输车线路",
       "type": 1,
       "api": "csp_YunCheShi",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0,
-      "jar": "https://weixine.net/ysc.json",
-      "ext": "https://weixine.net/ysc.json",
-      "backup": [
-        "https://tvkj.top/DC/ysc/tvkj/svip.json"
-      ]
+      "filterable": 1,
+      "ext": "https://weixine.net/ysc.json"
     },
     {
-      "name": "道长线路",
       "key": "道长",
+      "name": "道长线路",
       "type": 1,
       "api": "csp_DaoZhang",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0,
-      "jar": "https://pastebin.com/raw/5NHaxyGR",
+      "filterable": 1,
       "ext": "https://pastebin.com/raw/5NHaxyGR"
     },
     {
-      "name": "月光宝盒线路",
       "key": "月光宝盒",
+      "name": "月光宝盒线路",
       "type": 1,
       "api": "csp_YueGuangBaoHe",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0,
-      "jar": "https://ghproxy.com/https://raw.githubusercontent.com/guot55/yg/main/max.json",
-      "ext": "https://ghproxy.com/https://raw.githubusercontent.com/guot55/yg/main/max.json",
-      "backup": [
-        "https://gitlab.com/ygbh1/box/-/raw/main/dcang/dc.json",
-        "https://jihulab.com/ygbh1/box/-/raw/main/dcang/dc.json"
-      ]
+      "filterable": 1,
+      "ext": "https://ghproxy.com/https://raw.githubusercontent.com/guot55/yg/main/max.json"
     },
     {
-      "name": "巧儿线路",
       "key": "巧儿",
+      "name": "巧儿线路",
       "type": 1,
       "api": "csp_QiaoEr",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0,
-      "jar": "http://cdn.qiaoji8.com/tvbox.json",
+      "filterable": 1,
       "ext": "http://cdn.qiaoji8.com/tvbox.json"
     },
     {
-      "name": "南风线路",
       "key": "南风",
+      "name": "南风线路",
       "type": 1,
       "api": "csp_NanFeng",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0,
-      "jar": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/XC.json",
+      "filterable": 1,
       "ext": "https://agit.ai/Yoursmile7/TVBox/raw/branch/master/XC.json"
     },
     {
-      "name": "俊于线路",
       "key": "俊于",
+      "name": "俊于线路",
       "type": 1,
       "api": "csp_JunYu",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0,
-      "jar": "http://home.jundie.top:81/top98.json",
+      "filterable": 1,
       "ext": "http://home.jundie.top:81/top98.json"
     },
     {
-      "name": "神器线路",
       "key": "神器",
+      "name": "神器线路",
       "type": 1,
       "api": "csp_ShenQi",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0,
-      "jar": "https://jihulab.com/tvbox4431737/tvbox/-/raw/main/tv.json",
+      "filterable": 1,
       "ext": "https://jihulab.com/tvbox4431737/tvbox/-/raw/main/tv.json"
     },
     {
-      "name": "Ray线路",
       "key": "Ray",
+      "name": "Ray 线路",
       "type": 1,
       "api": "csp_Ray",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0,
-      "jar": "https://100km.top/0",
+      "filterable": 1,
       "ext": "https://100km.top/0"
     },
     {
-      "name": "开心线路",
       "key": "开心",
+      "name": "开心线路",
       "type": 1,
       "api": "csp_KaiXin",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0,
-      "jar": "http://rihou.vip:55/天天开心",
+      "filterable": 1,
       "ext": "http://rihou.vip:55/天天开心"
     },
     {
-      "name": "🏆 足球专线",
       "key": "足球专线",
+      "name": "🏆 足球专线",
       "type": 1,
       "api": "csp_ZuQiuZhuanXian",
       "searchable": 1,
       "quickSearch": 1,
-      "filterable": 0,
-      "jar": "https://pastebin.com/raw/futbol2025",
+      "filterable": 1,
       "ext": "https://pastebin.com/raw/futbol2025"
     }
   ]
